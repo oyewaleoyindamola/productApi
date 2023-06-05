@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100svh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.productCon{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.top{
+    background-color: coral;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+}
+.bottom{
+    background-color: darksalmon;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+}
+.descriT, .descriB{
+    background-color: white;
+}
